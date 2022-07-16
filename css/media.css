@@ -1,0 +1,106 @@
+
+@media only screen and (max-width: 1607px){
+    .shopButton2{
+       margin-left: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 1439px){
+    .productDiv{
+        margin-bottom: 7% !important;
+    }
+    .productDiv2{
+        margin-bottom: 7% !important;
+        margin-right: 13% !important;
+    }
+    .shopButton2{
+        width: 80px !important;
+        height: 33px !important;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .category1{
+        height: 327px !important;
+        width: 379px !important;
+    }
+    .category3 {
+        height: 666px !important;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .productDiv{
+        margin-bottom: 5% !important;
+    }
+    .productDiv2{
+        margin-bottom: 3% !important;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .category1{
+        height: 286px !important;
+        width: 346px !important;
+    }
+    .category3 {
+        height: 582px !important;
+        width: 366px !important;
+    }
+    .firstSale{
+        display: block !important;
+        padding-top: 5%;
+    }
+    .twoSale2{
+        display: block !important;
+        padding-top: 5%;
+    }
+    .thirdsale3{
+        display: block !important;
+        padding-top: 5%;
+    }
+    .fhotos{
+        height: 330px !important;
+    }
+    .buynow{
+       margin-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .productDiv{
+        margin-bottom: 2% !important;
+    }
+    .productP{
+        font-size: 20px !important;
+    }
+    .productH5{
+        font-size: 15px !important;
+    }
+    .shopButton2{
+        width: 80px !important;
+        height: 33px !important;
+    }
+    .footerParent{
+        display: block !important;
+    }
+}
+@media only screen and (max-width: 770px){
+    .productDiv{
+        margin-bottom: 2% !important;
+    }
+    .productP{
+        font-size: 15px !important;
+    }
+    .productH5{
+        font-size: 18px !important;
+    }
+    .shopButton{
+        width: 95px !important;
+        height: 33px !important;
+    }
+    .shopButton2{
+        width: 88px !important;
+        height: 33px !important;
+        margin-right: 5% !important;
+        margin-left: 80% !important;
+    }
+}

@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- nav -->
+
+    <div class="collapse " id="navbarToggleExternalContent">
+      <div class="bg-white p-4">
+        <h5 class="text-black h4 "><i class="fa-solid fa-phone"></i>0129- 12323-123123</h5>
+        <h1 class="aviatoH1">AVIATO</h1>
+        <ul>
+          <li>
+            <i class="fa-solid fa-cart-shopping"></i><a href="">Cart</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 searchformm" type="search " placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="smalldiv"></div>
+        <div class="dropdown mt-3 dropp ">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            SHOP
+          </a>
+        
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">SHOP</a></li>
+            <li><a class="dropdown-item" href="#">CHECKOUT</a></li>
+            <li><a class="dropdown-item" href="#">CART</a></li>
+            <li><a class="dropdown-item" href="#">PRICING</a></li>
+            <li><a class="dropdown-item" href="#">CONFIRMATION</a></li>
+          </ul>
+        </div>
+        <div class="dropdown mt-3 dropp ">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            PAGES
+          </a>
+        
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">CONTACT US</a></li>
+            <li><a class="dropdown-item" href="#">ABOUT US</a></li>
+            <li><a class="dropdown-item" href="#">404 PAGE</a></li>
+            <li><a class="dropdown-item" href="#">COMMING SOON</a></li>
+            <li><a class="dropdown-item" href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="dropdown mt-3 dropp ">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            BLOG
+          </a>
+        
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">BLOG LEFT SLIDEBAR</a></li>
+            <li><a class="dropdown-item" href="#">BLOG RIGHT SLIDEBAR</a></li>
+            <li><a class="dropdown-item" href="#">BLOG FULL WIDTH</a></li>
+            <li><a class="dropdown-item" href="#">BLOG 2 COLUMS</a></li>
+            <li><a class="dropdown-item" href="#">BLOG SINGLE</a></li>
+          </ul>
+        </div>
+        <div class="dropdown mt-3 dropp ">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            ELEMENTS
+          </a>
+        
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">TYPOGRAPHY</a></li>
+            <li><a class="dropdown-item" href="#">BUTTONS</a></li>
+            <li><a class="dropdown-item" href="#">ALERTS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-black bg-white">
+      <div class="container-fluid ">
+        <button class="navbar-toggler navv" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- slider -->
+    
+    <main>
+      <section>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide bigSlide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/slider-1.jpg" class="d-block w-100 slider11" alt="...">
+            <div class="carousel-caption d-none d-md-block productDiv">
+              <h5 class="text-white productH5">PRODUCTS</h5>
+              <p class="text-white fs-2 productP">The beauty of nature <br> is hidden in detalis.</p>
+              <button  class="shopButton">Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item " data-bs-interval="2000">
+            <img src="img/sliderimg2.jpg" class="d-block w-100 slider11" alt="...">
+            <div class="carousel-caption d-none d-md-block productDiv2">
+              <h5 class="text-white text-end">PRODUCTS</h5>
+              <p class="text-white fs-2 text-end productP">The beauty of nature <br> is hidden in detalis.</p>
+              <button class="shopButton2">Shop Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> 
+      </div>
+    </section>
+    </main>
+          
+    
+      <!-- PRODUCT CATEGORY -->
+
+      <main>
+        <section class="product">
+          <h5 class="producth5">PRODUCT CATEGORY</h5>
+          <div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row row-cols-3 mt-5 catrow">
+              <div class="col-md">
+                <div class="inlinedivs">
+                  <img class="category1" src="img/category-1.jpg" alt="">
+                  <h5 class="inlinedivsh5">Clothes Sales</h5>
+                  <p class="inlinedivp">Shop New Season Clothing</p>
+                </div>
+                <div class="inlinedivs">
+                  <img class="category1" src="img/category-2.jpg" alt="">
+                  <h5 class="inlinedivsh5">Clothes Sales</h5>
+                  <p class="inlinedivp">Special Design Comes First</p>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="inlinedivs">
+                  <img class="category3" src="img/category-3.jpg" alt="">
+                  <h5 class="inlinedivsh5">Clothes Sales</h5>
+                  <p class="inlinedivp">Special Design Comes First</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- trendy products -->
+
+      <main>
+        <section>
+          <div class="trendyParentdiv">
+            <div class="firstSale">
+              <div>
+                <img class="fhotos" src="img/1.jpg" alt="">
+                <h5>Reef Boardsport</h5>
+                <p class="priceP">$200</p>
+                <a href="https://demo.themefisher.com/aviato/cart.html">
+                  <button class="buynow">BUY NOW</button>
+                </a>
+              </div>
+              <div>
+                <img class="fhotos" src="img/2.jpg" alt="">
+                <h5>Rainbow Shoes</h5>
+                <p class="priceP">$200</p>
+                <a href="https://demo.themefisher.com/aviato/cart.html">
+                  <button class="buynow">BUY NOW</button>
+                </a>
+              </div>
+              <div>
+                <img class="fhotos" src="img/3.jpg" alt="">
+                <h5>Strayhorn SP</h5>
+                <p class="priceP">$230</p>
+                <a href="https://demo.themefisher.com/aviato/cart.html">
+                  <button class="buynow">BUY NOW</button>
+                </a>
+              </div>
+            </div>
+            <div class="twoSale2">
+              <div>
+                <img class="fhotos" src="img/4.jpg" alt="">
+                <h5>Bradley Mid</h5>
+                <p class="priceP">$200</p>
+                <a href="https://demo.themefisher.com/aviato/cart.html">
+                  <button class="buynow">BUY NOW</button>
+                </a>
+              </div>
+              <div>
+                <img class="fhotos" src="img/5.jpg" alt="">
+                <h5>Rainbow Shoes</h5>
+                <p class="priceP">$200</p>
+                <a href="https://demo.themefisher.com/aviato/cart.html">
+                  <button class="buynow">BUY NOW</button>
+                </a>
+              </div>
+              <div>
+                <img class="fhotos" src="img/6.jpg" alt="">
+                <h5>Rainbow Shoes</h5>
+                <p class="priceP">$200</p>
+                <a href="https://demo.themefisher.com/aviato/cart.html">
+                  <button class="buynow">BUY NOW</button>
+                </a>
+              </div>
+            </div>
+            <div class="thirdsale3">
+              <div>
+                <img class="fhotos" src="img/7.jpg" alt="">
+                <h5>Rainbow Shoes</h5>
+                <p class="priceP">$200</p>
+                <a href="https://demo.themefisher.com/aviato/cart.html">
+                  <button class="buynow">BUY NOW</button>
+                </a>
+              </div>
+              <div>
+                <img class="fhotos" src="img/8.jpg" alt="">
+                <h5>Rainbow Shoes</h5>
+                <p class="priceP">$200</p>
+                <a href="https://demo.themefisher.com/aviato/cart.html">
+                  <button class="buynow">BUY NOW</button>
+                </a>
+              </div>
+              <div>
+                <img class="fhotos" src="img/9.jpg" alt="">
+                <h5>Rainbow Shoes</h5>
+                <p class="priceP">$200</p>
+                <a href="https://demo.themefisher.com/aviato/cart.html">
+                  <button class="buynow">BUY NOW</button>
+                </a>
+              </div>
+            </div>
+            <div class="contactParent">
+              <h5>SUBSCRIBE TO NEWSLETTER</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,<br>
+                facilis numquam impedit ut sequi. Minus facilis vitae excepturi sit laboriosam.</p>
+            </div>
+            <div class="contactParent2">
+              <input class="inputForContact" placeholder="Enter Your Email Addres" type="email">
+              <button class="subscribebutton">SUBSCRIBE NOW!</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <!-- <footer> -->
+
+      <footer>
+        <section>
+          <h5 class="formh5">VIEW US ON INSTAGRAM</h5>
+          <div class="footerParent">
+            <img class="footerimg" src="img/footer 1 image.jpg" alt="">
+            <img class="footerimg"src="img/footer img 2.jpg" alt="">
+            <img class="footerimg" src="img/footer img 3.jpg" alt="">
+            <img class="footerimg" src="img/footer img 4.jpg" alt="">
+            <img class="footerimg" src="img/footer  img 5.jpg" alt="">
+            <img class="footerimg" src="img/footer img 6.jpg" alt="">
+          </div>
+        </section>
+      </footer>
+      
+                
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
